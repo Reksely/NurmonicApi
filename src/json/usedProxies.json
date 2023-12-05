@@ -1,0 +1,22 @@
+{
+  "proxies": [
+    "185.199.231.45:8382:mstesaaa:yr9b9pzqathu",
+    "188.74.210.21:6100:mstesaaa:yr9b9pzqathu",
+    "185.199.229.156:7492:ygiptbjl:csg63dxixnzw",
+    "45.94.47.66:8110:mstesaaa:yr9b9pzqathu",
+    "185.199.228.220:7300:ygiptbjl:csg63dxixnzw",
+    "188.74.183.10:8279:mstesaaa:yr9b9pzqathu",
+    "185.199.231.45:8382:ygiptbjl:csg63dxixnzw",
+    "188.74.183.10:8279:ygiptbjl:csg63dxixnzw",
+    "154.95.36.199:6893:ygiptbjl:csg63dxixnzw",
+    "45.94.47.66:8110:ygiptbjl:csg63dxixnzw",
+    "185.199.228.220:7300:mstesaaa:yr9b9pzqathu",
+    "38.154.227.167:5868:ygiptbjl:csg63dxixnzw",
+    "188.74.210.21:6100:ygiptbjl:csg63dxixnzw",
+    "45.155.68.129:8133:ygiptbjl:csg63dxixnzw",
+    "38.154.227.167:5868:mstesaaa:yr9b9pzqathu",
+    "45.155.68.129:8133:mstesaaa:yr9b9pzqathu",
+    "154.95.36.199:6893:mstesaaa:yr9b9pzqathu",
+    "185.199.229.156:7492:mstesaaa:yr9b9pzqathu"
+  ]
+}
