@@ -47,7 +47,7 @@ export async function completeGpt(data: any): Promise<any> {
       console.log('Error in call. Retrying for ' + retryCount + " time");
 
       retryCount += 1;
-      await new Promise(resolve => setTimeout(resolve, 1000));  // Wait for a moment before retrying
+      await new Promise(resolve => setTimeout(resolve, 500));  // Wait for a moment before retrying
     }
   }
 
