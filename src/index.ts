@@ -6,10 +6,10 @@ import { bearer } from '@elysiajs/bearer'
 
 export const app = new Elysia()
   .use(bearer())
-  .get('/', () => 'hi')
+  .get('/', () => 'Welcome to Nurmonic API')
   .use(chatRouter)
   .use(infoRouter)
-  .listen(8080)
+  .listen(3000)
 
 
 
