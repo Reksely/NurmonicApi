@@ -5,4 +5,6 @@ services:
         build: .
         restart: unless-stopped
         command: "/bin/sh -c 'bun install && bun run --watch src/index.ts'"
-        ports: ["3000:3000"]
+        ports:
+            - "95:95"
+            - "446:446"
