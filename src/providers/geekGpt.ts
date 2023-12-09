@@ -76,7 +76,7 @@ class GeekGpt {
       } catch (error) {
         attempts++;
         console.error(`Request failed. Attempt ${attempts} of 15.`);
-        await sleep(5000);
+        //await sleep(5000);
         if (attempts === 30) {
           console.error('All retry attempts failed. Returning "nothing".');
           return 'nothing';
