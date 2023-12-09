@@ -10,7 +10,7 @@ export const app = new Elysia()
   .use(chatRouter)
   .use(infoRouter)
   .listen({
-        port: 3000,
+        port: 95,
         hostname: '0.0.0.0'
     })
 
