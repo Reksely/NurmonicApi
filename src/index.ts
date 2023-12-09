@@ -9,7 +9,10 @@ export const app = new Elysia()
   .get('/', () => 'Welcome to Nurmonic API')
   .use(chatRouter)
   .use(infoRouter)
-  .listen(3000)
+  .listen({
+        port: 3000,
+        hostname: '0.0.0.0'
+    })
 
 
 
